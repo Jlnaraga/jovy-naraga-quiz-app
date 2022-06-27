@@ -1,0 +1,97 @@
+
+:root{
+--primary-color: black;
+}
+
+.introduction {
+    color: var(--primary-color);
+    justify-content: space-around;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.score{
+    display: flex;
+    align-items: flex-start;
+    color: var(--primary-color);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    text-decoration: none;
+}
+
+.timer{
+    display: flex;
+    align-items: flex-end;
+    color:var(--primary-color);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+p{
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:var(--primary-color);
+}
+
+.introduction .title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button{
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:var(--primary-color);
+    font-weight: 300;
+    border-radius: 8px;
+    background-color: chartreuse;
+}
+
+.score{
+    color: var(--primary-color);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+@media only screen and (max-width: 1011px) {
+
+    .score{
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .timer{
+        display: flex;
+        align-items: flex-end;
+    }
+}
+
+ol {
+    list-style: none;
+    counter-reset: olCounter;
+}
+li {
+    counter-increment: olCounter;
+}
+
+li button {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+li button::before {
+    content: counter(olCounter) ". ";
+}
