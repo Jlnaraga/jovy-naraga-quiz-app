@@ -1,5 +1,16 @@
 # jovy_ira_quiz_app
 
+module 4 challenge
+
+This site was built using [GitHub Pages](https://jlnaraga.github.io/jovy-naraga-quiz-app/).
+
+[GitHub Repository]https://github.com/Jlnaraga/jovy-naraga-quiz-app.git)
+
+# Screenshots
+![Desktop View](./assets/screenshots/jlnaraga.github.io_jovy-naraga-quiz-app_desktop.png)
+
+![Responsive View](./assets/screenshots/jlnaraga.github.io_jovy-naraga-quiz-app_responsive(iPad%20Air).png)
+
 
 
 # 04 Web APIs: Code Quiz
